@@ -10,7 +10,8 @@ At the time, I just bypassed by using mpich instead of OMPI or install the old v
 Recently, I succeeded in solve the problem, which I struggled with. I hope the people who want to use MPI on Raspberry pi (but suffer from same problem) get some help from this simple guide.
 
 # solution
-## Operation environment
+
+### Operation environment
 
     Raspberry pi 3
     Linux raspberrypi 4.4.34-v7+ armv7l GNU/Linux
