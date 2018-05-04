@@ -40,7 +40,7 @@ Likewise, in odrder to extract the downloaded file and change directory :
 Of course, detail variable is depend on your setup. For example, if you want to build OMPI on RPi2, than you need to put CFLAGS=”-mcpu=cortex-7 -mfloat-abi=hard -mfpu=neon-vfpv4” instead of flag for RPi3 in upper box.
 
 ## Step 3 (optional) : use ldconfig
-In the process of install, I found several library linking errors were occurred. It can cause another problem when compile mpi program.
+In the process of installation, I found several library linking errors were occurred. It can cause another problem when compile mpi program.
 mpicc: error while loading shared libraries: libopen-pal.so.4: cannot open shared object file: No such file or directory
  
 But ldconfig will create links for mpi easily. Only thing we have to do is type following command on terminal.
