@@ -17,7 +17,7 @@
     Linux raspberrypi 4.4.34-v7+ armv7l GNU/Linux
     gcc(Raspbian 4.9.2-10) 4.9.2
 
- You might aware that the architecture showed up is different with real hardware architecture (cortex-a53, armv8) it because RPi working on 32-bit OS. Similarly, this sort of thing is happened in case of RPi1 and RPi2 (as armv6l).  It’s the principal cause of make command failure. Because of this, while processing configure script raspberry pi capture its own information in a wrong way. So, we should give integral instruction manually using gcc flag option.
+ You might aware that the architecture showed up is different with real hardware architecture (cortex-a53, armv8) it because RPi is working on 32-bit OS. Similarly, this sort of thing is happened in case of RPi1 and RPi2 (as armv6l).  It’s the principal cause of make command failure. Because of this, while processing configure script raspberry pi capture its own information in a wrong way. So, we should give integral instruction manually using gcc flag option.
 
 ## Step 1 : download and extract open mpi 
  At first, you need to download lastest stable version of open mpi from official (https://www.open-mpi.org/software/ompi/v3.0/), or you can just type following line :
