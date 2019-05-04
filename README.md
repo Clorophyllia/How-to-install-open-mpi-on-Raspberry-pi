@@ -31,7 +31,7 @@ Likewise, in odrder to extract the downloaded file and change directory :
 
 
 ## Step 2 : give ARM option when configure
-    ./configure CFLAGS=”-mcpu=cortex-a53 -mfloat-abi=hard -mfpu=neon-fp=armv8 -mneon-for-64bits”
+    ./configure CFLAGS=”-mcpu=cortex-a53 -mfloat-abi=hard -mfpu=neon-fp-armv8 -mneon-for-64bits”
  
     make
 
