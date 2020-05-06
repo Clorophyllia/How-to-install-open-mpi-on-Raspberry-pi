@@ -1,4 +1,4 @@
-# How to install open mpi on Raspberry pi without arm issue
+# How to install open mpi on Raspberry pi (fixing the arm)
  MPI is most famous communication protocol for parallel computing. As time passed, a lot of parallel programming languages have been sprang up, but still, MPI is dominant in high performance computing. The key characteristic of MPI is versatility. Thus, its uses isn’t confined to supercomputer. Actually, MPI is fascinating tool to construct distributed system which consist of simple and identical machines. There are 2 major implementation in MPI. First one is MPICH, and second one is Open MPI.
 
 # known Issue
